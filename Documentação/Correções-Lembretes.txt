@@ -1,0 +1,19 @@
+
+Correções
+    > Um ou dois parágrafos para sintonizar o leitor [ ];
+    > Tem que ter uma pergunta que será a sua problematização [ x ];
+        * "Seria possível um sistema computacional substituir interprete de libras?"
+    > Objetivo: Desenvolver um sistema de libras que auxilia na comunicação de surdos com ouvindes que não conheçam
+Libras [ x ];
+    > Depois do objetivo tem que colocar a Justificativa... pensem em 3 parágrafos:
+        * Primeiro: por que o desenvolvimento seria importante para a sociedade onde você mora [  ];
+        * Segundo: Qual a contribuição do seu trabalho para o meio acadêmico [  ];
+        * Terceiro: por que este trabalho seria importante para vocês [  ];
+    > Depois que vcs escreverem a justificativa, você terá que colocar a metodologia [  ];
+    > Metodologia é tudo que vcs irão fazer para conseguir responder a sua problematização [  ];
+        * Metodologia é tudo que vcs irão fazer para conseguir responder a sua problematização;
+    > A introdução como será composto o seu trabalho [  ];
+
+
+Lembretes
+    > Lembra sempre que o objetivo o verbo em no infinitivo (desenvolvER, criAR,...)
