@@ -2,7 +2,7 @@
 Correções
     > Um ou dois parágrafos para sintonizar o leitor [ ];
     > Tem que ter uma pergunta que será a sua problematização [ x ];
-        * "Seria possível um sistema computacional substituir interprete de libras?"
+        * "seria possível um sistema computacional substituir essa necessidade de um intérprete de Libras?"
     > Objetivo: Desenvolver um sistema de libras que auxilia na comunicação de surdos com ouvindes que não conheçam
 Libras [ x ];
     > Depois do objetivo tem que colocar a Justificativa... pensem em 3 parágrafos:
