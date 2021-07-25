@@ -18,7 +18,10 @@ de sinais para o português.
 
 Palavras chave: Comunicação; Língua de Sinais; Aprendizado Profundo; Visão Computacional.
 
-INTRODUÇÃO
+Introdução
+
+
+Fundamentações Teóricas
 
     Em 1857, é fundado no Brasil o Instituto Nacional de Educação de Surdos (INES) pelas mãos de Dom Pedro II,
 em parceria com Ernest Huet, que inicialmente recebia a alcunha de Instituto Imperial de Surdos-Mudos, sediado
