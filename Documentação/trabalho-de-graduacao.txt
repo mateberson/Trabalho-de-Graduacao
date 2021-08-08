@@ -21,12 +21,45 @@ Introdução
 
 
 
+
+
 1.0 - Fundamentações Teóricas
 1.1 - História dos Surdos no Brasil
 	Em 1857, é fundado no Brasil o Instituto Nacional de Educação de Surdos (INES) pelas mãos de Dom Pedro II, em parceria com Ernest Huet, que inicialmente recebia a alcunha de Instituto Imperial de Surdos-Mudos, sediado no Rio de Janeiro. Huet, também conhecido como “pai da Libras”, era um padre francês surdo responsável pela educação da língua de sinais na França. A convite de Dom Pedro II, veio ao Brasil com o propósito de desenvolver uma língua de sinais para os surdos do país. A Língua Brasileira de Sinais (Libras) tem como sua base fonológica uma mescla entre a língua de sinais francesa e características da língua de sinais utilizada pelos surdos brasileiros. O Instituto Imperial tinha como objetivo a educação de meninos surdos da alta classe social.
 	Em meados de 1873, é criado no Brasil, pelo Instituto de Surdos-Mudos, a iconografia dos sinais de mão da Libras para as letras do alfabeto, por autoria de Flausino José de Gama, aluno surdo do instituto.
 	No ano de 1880, ocorre o Congresso de Milão que foi uma conferência internacional de educadores de surdos, marcando a história do ensino de pessoas com deficiência auditiva ao definir a oralidade como melhor método de aprendizado em detrimento das línguas gestuais de forma obrigatória aos países participantes, com duração aproximada a 100 anos. Tal ação foi vista com maus olhos pela cultura surda, já que endossavam a língua de sinais como forma de comunicação, o que levou a diversos movimentos contra esta decisão e houveram muitas pesquisas na área com a finalidade de legitimar a linguagem gestual.
 	Este congresso teve um reflexo muito negativo na educação de surdos no Brasil. O INES recebeu uma proibição para educar os surdos no dialeto de Libras, o que acarretou em uma baixa na quantidade de professores surdos nas escolas para deficientes auditivos, tendo suas vagas preenchidas por professores ouvintes. Por volta da década de 30, vários ex-estudantes do INES fundaram a primeira Associação Brasileira de Surdos-Mudos, hoje já inativa. Entre os anos de 1953 e 1956, foram fundadas outras 3 Associações de Surdos, que tiveram papéis importantes na vivência de pessoas com deficiência auditiva no país. Por intermédio destas associações, outras unidades foram fundadas em vários estados do Brasil. A Federação Nacional de Educação e Integração de Surdos (FENEIS), organização filantrópica sem fins lucrativos que luta pela inclusão dos surdos e garantia de seus direitos, teve origem no ano de 1987.
-	Na década de 90, a história dos surdos recebe um destaque em diversos eventos bilinguísticos (Língua de Sinais e Língua Oral) que ocorreram por todo o país, por intermédio de Universidades Federais com parceria de professores de diversos países, que ministraram cursos de metodologias de ensino de suas respectivas línguas de sinais. No final da década ocorre um congresso de extrema importância para a história da Libras: o V Congresso Latino Americano de Educação Bilíngüe para Surdos, onde uma das pautas de debate era a formação de professores surdos e intérpretes de Libras.
+	Na década de 90, a história dos surdos recebe um destaque em diversos eventos bilinguísticos (Língua de Sinais e Língua Oral) que ocorreram por todo o país, por intermédio de Universidades Federais com parceria de professores de diversos países, que ministraram cursos de metodologias de ensino de suas respectivas línguas de sinais. No final da década ocorre um congresso de extrema importância para a história da Libras: o V Congresso Latino Americano de Educação Bilíngue para Surdos, onde uma das pautas de debate era a formação de professores surdos e intérpretes de Libras.
 	O resultado destes esforços combinados serviu como base para o início dos projetos de lei que regularizavam a Libras no Congresso, tendo seu início no ano de 1993. Foi somente no ano de 2002, mais especificamente no dia 24 de abril, que entrava em vigor a lei nº 10.436/02, reconhecendo a Libras oficialmente no país, esta data ganhou grande valor para a cultura surda tornando-se reconhecida como Dia Nacional da Língua Brasileira de Sinais.
-	Nos treze anos seguintes várias outras leis surgiram com o objetivo de fortalecer ainda mais a lei do ano de 2002, contudo todos estes esforços realizados não foram suficientes para garantir uma inclusão efetiva de pessoas surdas na sociedade. Mesmo sendo considerada a segunda língua oficial do país, grande parte da população ouvinte não possui os conhecimentos desta linguagem, o que dificulta o convívio diário entre os grupos e consequentemente reforça a exclusão dos não-ouvintes da sociedade.
+	Nos treze anos seguintes várias outras leis surgiram com o objetivo de fortalecer ainda mais a lei do ano de 2002, contudo todos estes esforços realizados não foram suficientes para garantir uma inclusão efetiva de pessoas surdas na sociedade. Mesmo sendo considerada a segunda língua oficial do país, grande parte da população ouvinte não possui os conhecimentos desta linguagem, gerando um déficit na educação de indivíduos surdos em seu âmbito familiar durante seu período infanto-juvenil e dificulta o convívio diário entre os grupos de surdos e ouvintes, consequentemente reforçando a exclusão dos não-ouvintes da sociedade.
+
+
+1.2 - Lingua Brasileira de Sinais (Libras) e sua fonologia
+	A definição de linguagem natural pode ser concebida como qualquer meio de comunicação desenvolvido naturalmente com a finalidade de promover a troca de informações entre seus usuários, com um conjunto limitado de componentes que permite a criação de sentenças infinitas ao uso. Tais linguagens diferem, por exemplo, das linguagens de programação de computadores, ao terem seu aprendizado por meio do convívio social dos indivíduos. Seguindo esta definição, pode-se construir um paralelo com as linguagens de sinais para com a sociedade dos surdos, visto que seus usuários possuem a capacidade de contruir uma quantidade ilimitada de expressões utilizando o conjunto de funções e movimentos disponibilizados pela língua.
+	De forma similar às demais linguagens de sinais existentes, a Libras tem sua estrutura modal baseada no princípio gestual-visual, onde faz uso de movimentos gestuais e/ou expressões faciais para transmitir uma mensagem, e a forma de recebê-la vem por intermédio da visão, o que difere da língua falada que tem como fundamentos de transmissão a fala (envio) e a audição (recepção). Entretanto, tais diferenças não se encontram única e exclusivamente em seus canais de difusão, mas também em suas estruturas gramaticais.
+	Fonologia, do grego phonos (som) e logos (estudo), é o estudo da linguagem sonora de um idioma visando estruturar e organizar os componentes nas quais, isoladamente, não possuem significado. A Libras, por sua vez, possui suas próprias regras fonológicas devido ao fato de ser uma língua espaço-visual, sendo elas definidas em cinco vertentes principais: configuração das mãos, movimento, ponto de articulação, orientação da mão e expressão facial e/ou corporal.
+	A seguir serão divididos em cinco subsessões as definições citadas acima.
+
+1.2.1 - Configuração das mãos
+	Consiste na forma como a mão é configurada seguindo uma das 46 formas presentes no dialeto e podendo fazer uso ou não de ambas as mãos. Tais configurações são preestabelecidas através de um estudo realizado em diversas capitais do Brasil [3], buscando estruturá-las em subgrupos de similaridade da configuração de mãos. Estes subgrupos são divididos em 19 padrões, exemplificados no Quadro 1.
+
+1.2.2 - Movimento
+	No parâmetro de movimento, sinais podem ser subdivididos em dois grupos: sinais estáticos, aqueles que não fazem uso de movimentos das mãos para serem executados, e sinais dinâmicos, que necessitam da movimentação das mãos. A forma da movimentação das mãos não implica só na execução dos sinais, mas também na intensidade na qual são expressados, no modo adverbial ou em sua temporalidade. Exemplos de sinais que utilizam movimento estão dispostos na Figura 1.
+
+1.2.3 - Pontos de articulação
+	A utilização dos pontos de articulação baseia-se na predominância do local aonde o sinal de mão é realizado, podendo ser estes em áreas neutras (região em frente ao tronco), ou que faz uso de alguma parte do corpo para sua realização, como por exemplo a àrea da cabeça/rosto, ou a área dos membros. Um exemplo que diferencia sinais com a mesma configuração de mão baseado no ponto de articulação encontra-se na Figura 2.
+
+1.2.4 - Orientação da mão
+	Expressa o sentido na qual a mão segue em casos de sinais que requerem movimentos direcionáveis. Tais orientações podem expressar oposição de sentido, mesmo com a realização de movimentos e configuração de mãos similares.
+
+1.2.5 - Expressões
+	Nos parâmetros citados acima, há a predominância do uso das mãos para sua execução, contudo alguns sinais também podem fazer uso de expressões faciais e/ou corporais para expor significado ou intensidade. Na Libras, porém, existem sinais / expressões que não utilizam das mãos para sua realização, dependendo de expressões para sua transmissão.
+
+
+
+
+
+
+
+
+
