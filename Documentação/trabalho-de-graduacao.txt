@@ -16,7 +16,8 @@ Introdução
 	Durante o desenvolvimento do trabalho, realizar-se-á uma pesquisa bibliográfica, principalmente em artigos científicos, dissertações e teses. Os autores ainda irão fazer um levantamento de trabalhos relacionados. Após esta etapa será possível o desenvolvimento de um sistema utilizando da linguagem Python. Ao término do desenvolvimento, o sistema será posto em teste por usuários da Libras que irão responder um formulário com a finalidade de validar o sistema. 
 	Portanto, o trabalho será composto da seguinte forma: No capítulo 1, será apresentada uma breve introdução sobre a Libras, assim como um estudo linguístico de suas características e uma contextualização do conceito de computação visual. No capítulo 2, encontram-se as metodologias abordadas, explicando as variáveis propostas para a elaboração do projeto. No capítulo 3, é descrito o processo de desenvolvimento da ferramenta, e no capítulo 4 são exibidos os resultados atingidos com o projeto.
 
-1.0 - Fundamentações Teóricas
+1 - Fundamentações Teóricas
+
 1.1 - História dos Surdos no Brasil
 	De acordo com o Strobel (2009)[4], no ano de 1857 foi fundado no Brasil o Instituto Imperial de Surdos-Mudos pelas mãos de Dom Pedro II, em parceria com Ernest Huet, que posteriormente recebeu a alcunha de Instituto Nacional de Educação de Surdos (INES), sediado no Rio de Janeiro. Huet, também conhecido como “pai da Libras”, era um padre francês surdo responsável pela educação da língua de sinais na França. A convite de Dom Pedro II, veio ao Brasil com o propósito de desenvolver uma língua de sinais para os surdos do país. A Língua Brasileira de Sinais (Libras) tem como sua base fonológica uma mescla entre a língua de sinais francesa e características da língua de sinais utilizada pelos surdos brasileiros. O Instituto Imperial tinha como objetivo a educação de meninos surdos da alta classe social.
 	Em meados de 1873, é criado no Brasil, pelo Instituto de Surdos-Mudos, a iconografia dos sinais de mão da Libras para as letras do alfabeto, por autoria de Flausino José de Gama, aluno surdo do instituto. E após 7 anos, ou seja, em 1880, ocorre o Congresso de Milão que foi uma conferência internacional de educadores de surdos, marcando a história do ensino de pessoas com deficiência auditiva ao definir a oralidade como melhor método de aprendizado em detrimento das línguas gestuais de forma obrigatória aos países participantes, com duração aproximada a 100 anos. Tal ação foi vista com maus olhos pela cultura surda, já que endossavam a língua de sinais como forma de comunicação, o que levou a diversos movimentos contra esta decisão e houveram muitas pesquisas na área com a finalidade de legitimar a linguagem gestual.
@@ -26,7 +27,6 @@ Introdução
 	Nos treze anos seguintes várias outras leis surgiram com o objetivo de fortalecer ainda mais a lei do ano de 2002, contudo todos estes esforços realizados não foram suficientes para garantir uma inclusão efetiva de pessoas surdas na sociedade. Mesmo sendo considerada a segunda língua oficial do país, grande parte da população ouvinte não possui os conhecimentos desta linguagem, o que dificulta o convívio diário entre os grupos e consequentemente reforça a exclusão dos não-ouvintes da sociedade.
 
 
-
 1.2 - Lingua Brasileira de Sinais (Libras) e sua fonologia
 	A definição de linguagem natural pode ser concebida como qualquer meio de comunicação desenvolvido naturalmente com a finalidade de promover a troca de informações entre seus usuários, com um conjunto limitado de componentes que permite a criação de sentenças infinitas ao uso. Tais linguagens diferem, por exemplo, das linguagens de programação de computadores, ao terem seu aprendizado por meio do convívio social dos indivíduos. Seguindo esta definição, pode-se construir um paralelo com as linguagens de sinais para com a sociedade dos surdos, visto que seus usuários possuem a capacidade de contruir uma quantidade ilimitada de expressões utilizando o conjunto de funções e movimentos disponibilizados pela língua. (FONSECA, 2020)[6]
 	De forma similar às demais linguagens de sinais existentes, a Libras tem sua estrutura modal baseada no princípio gestual-visual, onde faz uso de movimentos gestuais e/ou expressões faciais para transmitir uma mensagem, e a forma de recebê-la vem por intermédio da visão, o que difere da língua falada que tem como fundamentos de transmissão a fala (envio) e a audição (recepção). Entretanto, tais diferenças não se encontram única e exclusivamente em seus canais de difusão, mas também em suas estruturas gramaticais.
@@ -34,19 +34,56 @@ Introdução
 	A seguir serão divididos em cinco subsessões as definições citadas acima.
 
 1.2.1 - Configuração das mãos
-	Consiste na forma como a mão é configurada, podendo fazer uso ou não de ambas as mãos, porém algumas não transmitem significados isoladamente pois necessitam dos outros parâmetros para seu entendimento, já outras assumem as formas das letras do alfabeto. Fontes de pesquisa, porém, divergem quando se trata da quantia exata de configurações existentes. De acordo com CRUZ (2020)[8], são presentes 73 configurações de mãos na Libras [FIGURA 1]. Para Tanya e Myrna (2007, p. 28)[9], existem 64 parâmetros [FIGURA 2]. 
+	Consiste na forma como a mão é configurada, podendo fazer uso ou não de ambas as mãos, porém algumas não transmitem significados isoladamente pois necessitam dos outros parâmetros para seu entendimento, já outras assumem as formas das letras do alfabeto. Fontes de pesquisa, porém, divergem quando se trata da quantia exata de configurações existentes. De acordo com CRUZ (2020)[8], são presentes 73 configurações de mãos na Libras, conforme a Figura 1. Para Tanya e Myrna (2007, p. 28)[9], existem 64 parâmetros, como demonstrado na Figura 2.
+
+Figura 1: Configurações de mão extraídas do Dicionário Digital da INES
+[FIGURA]
+Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
+
+Figura 2: Configuração de Mão da Libras
+[FIGURA]
+Fonte: Felipe e Monteiro , 2007, p. 28 
 
 1.2.2 - Movimento
-	No parâmetro de movimento, sinais podem ser subdivididos em dois grupos: sinais estáticos, aqueles que não fazem uso de movimentos das mãos para serem executados, e sinais dinâmicos, que necessitam da movimentação das mãos. A forma da movimentação das mãos não implica só na execução dos sinais, mas também na intensidade na qual são expressados, no modo adverbial ou em sua temporalidade.(CRUZ, 2020) Exemplos de sinais que utilizam movimento estão dispostos na Figura 1.
+	No parâmetro de movimento, sinais podem ser subdivididos em dois grupos: sinais estáticos, aqueles que não fazem uso de movimentos das mãos para serem executados, e sinais dinâmicos, que necessitam da movimentação das mãos. A forma da movimentação das mãos não implica só na execução dos sinais, mas também na intensidade na qual são expressados, no modo adverbial ou em sua temporalidade. (CRUZ, 2020) Exemplos de sinais que utilizam movimento estão dispostos na Figura 3.
+
+Figura 3: Representação do parâmetro “movimento”
+[FIGURA]
+Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
 
 1.2.3 - Pontos de articulação
-	A utilização dos pontos de articulação baseia-se na predominância do local aonde o sinal de mão é realizado, podendo ser estes em áreas neutras (região em frente ao tronco), ou que faz uso de alguma parte do corpo para sua realização, como por exemplo a àrea da cabeça/rosto, ou a área dos membros. Um exemplo que diferencia sinais com a mesma configuração de mão baseado no ponto de articulação encontra-se na Figura 2.
+	A utilização dos pontos de articulação baseia-se na predominância do local aonde o sinal de mão é realizado, podendo ser estes em áreas neutras (região em frente ao tronco), ou que faz uso de alguma parte do corpo para sua realização, como por exemplo a àrea da cabeça/rosto, ou a área dos membros. Um exemplo que diferencia sinais com a mesma configuração de mão baseado no ponto de articulação encontra-se na Figura 4.
+
+Figura 4: Representação do parâmetro “ponto de articulação”
+[FIGURA]
+Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
 
 1.2.4 - Orientação da mão
-	Expressa o sentido na qual a mão segue em casos de sinais que requerem movimentos direcionáveis. Tais orientações podem expressar oposição de sentido, mesmo com a realização de movimentos e configuração de mãos similares.
+	Expressa o sentido na qual a mão segue em casos de sinais que requerem movimentos direcionáveis. Tais orientações podem expressar oposição de sentido, mesmo com a realização de movimentos e configuração de mãos similares. Exemplos disponíveis na Figura 5.
+
+Figura 5: Representação do parâmetro “orientação”
+[FIGURA]
+Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
 
 1.2.5 - Expressões
 	Nos parâmetros citados acima, há a predominância do uso das mãos para sua execução, contudo alguns sinais também podem fazer uso de expressões faciais e/ou corporais para expor significado ou intensidade. Na Libras, porém, existem sinais / expressões que não utilizam das mãos para sua realização, dependendo de expressões para sua transmissão.
+
+Figura 6: Representação do parâmetro “expressão”
+[FIGURA]
+Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
+
+
+
+
+
+LISTA DE FIGURAS
+
+Figura 1: Configurações de mão extraídas do Dicionário Digital da INES........xx
+Figura 2: Configuração de Mão da Libras.......................................xx
+Figura 3: Representação do parâmetro “movimento”..............................xx
+Figura 4: Representação do parâmetro “ponto de articulação”...................xx
+Figura 5: Representação do parâmetro “orientação”.............................xx
+Figura 6: Representação do parâmetro “expressão”..............................xx
 
 
 
