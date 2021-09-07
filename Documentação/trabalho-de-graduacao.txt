@@ -38,42 +38,66 @@ Introdução
 
 Figura 1: Configurações de mão extraídas do Dicionário Digital da INES
 [FIGURA]
-Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
+Fonte: Cruz, 2020, p.12 apud Lira e Souza, 2018
 
 Figura 2: Configuração de Mão da Libras
 [FIGURA]
-Fonte: Felipe e Monteiro , 2007, p. 28 
+Fonte: Felipe e Monteiro, 2007, p.28 
 
 1.2.2 - Movimento
 	No parâmetro de movimento, sinais podem ser subdivididos em dois grupos: sinais estáticos, aqueles que não fazem uso de movimentos das mãos para serem executados, e sinais dinâmicos, que necessitam da movimentação das mãos. A forma da movimentação das mãos não implica só na execução dos sinais, mas também na intensidade na qual são expressados, no modo adverbial ou em sua temporalidade. (CRUZ, 2020) Exemplos de sinais que utilizam movimento estão dispostos na Figura 3.
 
 Figura 3: Representação do parâmetro “movimento”
 [FIGURA]
-Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
+Fonte: Cruz, 2020, p.14 apud Felipe e Monteiro, 2007
 
 1.2.3 - Pontos de articulação
 	A utilização dos pontos de articulação baseia-se na predominância do local aonde o sinal de mão é realizado, podendo ser estes em áreas neutras (região em frente ao tronco), ou que faz uso de alguma parte do corpo para sua realização, como por exemplo a àrea da cabeça/rosto, ou a área dos membros. Um exemplo que diferencia sinais com a mesma configuração de mão baseado no ponto de articulação encontra-se na Figura 4.
 
 Figura 4: Representação do parâmetro “ponto de articulação”
 [FIGURA]
-Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
+Fonte: Cruz, 2020, p.13 apud Felipe e Monteiro, 2007
 
 1.2.4 - Orientação da mão
 	Expressa o sentido na qual a mão segue em casos de sinais que requerem movimentos direcionáveis. Tais orientações podem expressar oposição de sentido, mesmo com a realização de movimentos e configuração de mãos similares. Exemplos disponíveis na Figura 5.
 
 Figura 5: Representação do parâmetro “orientação”
 [FIGURA]
-Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
+Fonte: Cruz, 2020, p.14 apud Felipe e Monteiro, 2007
 
 1.2.5 - Expressões
 	Nos parâmetros citados acima, há a predominância do uso das mãos para sua execução, contudo alguns sinais também podem fazer uso de expressões faciais e/ou corporais para expor significado ou intensidade. Na Libras, porém, existem sinais / expressões que não utilizam das mãos para sua realização, dependendo de expressões para sua transmissão.
 
 Figura 6: Representação do parâmetro “expressão”
 [FIGURA]
-Fonte: Cruz, 2008, p.12 apud Lira e Souza, 2018
+Fonte: Cruz, 2020, p.15 apud Felipe e Monteiro, 2007
 
 
+2 - Metodologia
+	Neste capítulo são abordadas as ferramentas utilizadas na implementação deste projeto, como por exemplo o OpenCV, MediaPipe, Tensorflow, entre outros. Também será descrita a metodologia a ser aplicada durante a fase de desenvolvimento, buscando referências em trabalhos relacionados na área de pesquisa.
 
+2.1 - OpenCV
+	O OpenCV (Open Sourcer Computer Vision)(OpenCV, s.d.)[10], desenvolvido pela Intel Corporation, é uma biblioteca 'open source' de programação que implementa diversas ferramentas de apoio à interpretação de imagens de forma computacional. (MARENGONI e STRINGHINI, 2009)[11] Com esta ferramenta, é possível realizar o processamento de imagens em vários níveis, desde a aplicação de filtros simples até funções mais complexas de reconhecimento e análise da captura, visando a acessibilidade de programadores à tecnologias de robótica e interações em tempo real humano-máquina.
+Segundo Marengoni e Stringhini (2009 apud Gonzalez et al., 2006)[11] pode-se dividir em três níveis (baixo-nível, nível-médio e alto-nível) o espectro entre processamento de imagem e a visão computacional:
+	"Os processos de baixo-nível envolvem operações primitivas, tais como a redução de ruído ou melhoria no contraste de uma imagem. Os processos de nível-médio são operações do tipo segmentação (particionamento da imagem em regiões) 	ou classificação (reconhecimento dos objetos na imagem). Os processos de altonível estão relacionados com as tarefas de cognição associadas com a visão humana."
+
+2.2 - Tensorflow
+	Ferramenta desenvolvida pela Google, Tensorflow (Tensorflow, s.d.)[12] é uma biblioteca de código aberto utilizada em sistemas de aprendizado de máquina, responsável por disponibilizar ferramentas de gerência do processamento dos algorítmos através de CPUs (Central Processing Units), GPUs (Graphics Processing Units) e TPUs (Tensor Processing Units).(MARTINS, 2021)[13] A biblioteca disponibiliza funções de suporte para treino de modelos de aprendizagem, tendo o Python como sua linguagem de programação principal, mas também possuindo suporte oficial para linguagens como JavaScript, Java, C++, entre outras. (NOGUEIRA, 2020)[14]
+
+2.3 - MediaPipe
+	(Os artigos que li não falaram profundamente sobre MediaPipe, somente citações. Deixei o tópico aqui no meio, mas se necessário alterar, sem problemas)
+
+2.4 - Redes Neurais Artificiais (ANN)
+	Segundo CRUZ (2020 apud Goodfellow et al., 2016)[8] pode-se definir o conceito de redes neurais artificiais como:
+	"Desse modo, redes neurais artificiais são modelos computacionais inspirados no sistema nervoso central animal, capazes de reconhecer padrões e aprender por meio de dados e experiência."
+	As redes neurais são compostas por três tipos principais de camadas, ilustradas na Figura 7:
+	- Camada de entrada - responsável pelo recebimento dos dados de entrada e inicia o processamento das informações. 
+	- Camadas ocultas - realizam os principais cálculos e funções para agregar os dados, prepará-los e direcioná-los à saída.
+	- Camada de saída - calcula a previsão final do método. (MARTINS, 2021)[13]
+
+Figura 7: Rede Neuronal Artificial
+[FIGURA]
+Fonte: Martins, 2021, p.6 apud Basak, 2018
 
 
 LISTA DE FIGURAS
@@ -84,7 +108,7 @@ Figura 3: Representação do parâmetro “movimento”.........................
 Figura 4: Representação do parâmetro “ponto de articulação”...................xx
 Figura 5: Representação do parâmetro “orientação”.............................xx
 Figura 6: Representação do parâmetro “expressão”..............................xx
-
+Figura 7: Rede Neuronal Artificial............................................xx
 
 
 
@@ -108,11 +132,26 @@ Acesso em: 07 ago. 2021.
 [7 (1.2)] Editora Melhoramentos Ltda. Dicionário Brasileiro da Língua Portuguesa. Disponível em: <https://michaelis.uol.com.br/moderno-portugues/busca/portugues-brasileiro/fonologia>
 Acesso em: 15 ago. 2021.
 
-[8 (1.2)] CRUZ, Ada Raquel dos Santos. UMA ESTRATÉGIA PARA RECONHECIMENTO DE SINAIS DA LÍNGUA BRASILEIRA DE SINAIS UTILIZANDO APRENDIZADO PROFUNDO. 
+[8 (1.2; 2.4)] CRUZ, Ada Raquel dos Santos. UMA ESTRATÉGIA PARA RECONHECIMENTO DE SINAIS DA LÍNGUA BRASILEIRA DE SINAIS UTILIZANDO APRENDIZADO PROFUNDO. 2020. 78p. Dissertação (Mestre em Informática) - Instituto de Computação - UFAM (Universidade Federal do Amazonas), Manaus.
 
 [9 (1.2)] FELIPE, Tanya A.; MONTEIRO, Myrna Salerno S. Libras em Contexto: Curso Básico: Livro do Professor. 6. ed. Brasília:MEC, 2007.
 
-[10]
+[10 (2.1)] OpenCV. Disponível em: <http://sourceforge.net/projects/opencvlibrary>
+Acesso em: 07 set. 2021.
 
-[11]
+[11 (2.1)] MARENGONI, Maurício; STRINGHINI, Denise. Tutorial: Introdução à Visão Computacional usando OpenCV. 2009. (É UM LIVRO, REVER REFERÊNCIA) 
+
+[12 (2.2)] Tensorflow. Disponível em: <https://www.tensorflow.org/>
+Acesso em: 07 set. 2021.
+
+[13 (2.2)] MARTINS, Ricardo A. S. Sistema de contagem de pessoas na biblioteca da FEUP utilizando visão computacional. 2021. 96p. Mestrado Integrado (Engenharia Eletrotécnica e de Computadores) - Faculdade de Engenharia, FEUP (Universidade do Porto), Porto, Portugal.
+
+[14 (2.2)] NOGUEIRA, André. SignPic: Sistema Móvel Para Deteção de Língua Gestual Utilizando Machine Learning. 2020. 55p.  (Master of Science) - Faculdade de Ciências e Tecnologia, UFP (Universidade Fernando Pessoa), Porto, Portugal.
+
+[15 ()] 
+
+[16 ()] 
+
+[17 ()] 
+
 
