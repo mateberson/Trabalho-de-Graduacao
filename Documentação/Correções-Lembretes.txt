@@ -13,3 +13,46 @@ Correções
 
 Lembretes
     > Lembra sempre que o objetivo o verbo em no infinitivo (desenvolvER, criAR,...)
+
+
+
+======================================================================================================================================================================================================
+
+
+
+2 - Metodologia
+
+- Base de dados para treinamento e teste
+	- Obtenção
+		- OpenCV para captura de frames
+		- MediaPipe para definir pontos de articulação para construção da base de dados
+	- Padronização de armazenamento dos dados
+		- Utilizar biblioteca OS do Python para manipulação de pastas
+		- Sequências de pastas por letra do alfabeto e números de 0 a 9 ---> 30 pastas de vídeos por letra/número --> cada pasta de vídeo possui 30 arquivos representando as posições dos pontos de articulação (X, Y, Z)
+
+
+- Treinamento de um modelo de reconhecimento de posição das mãos
+	- Para o processo de divisão dos dados, será aplicada a biblioteca 'sklearn' do Python
+	- Divisão da base de dados entre treinamento e teste
+		- Método 95% treinamento / 5% teste
+	- Método de Treinamento
+		- Definir os parâmetros de treinamento
+		- Categorização dos dados em dois grupos: 
+			- Posição dos 21 pontos de articulação da mão
+			- Letra referente aos padrões
+		- Aplicar um modelo de aprendizado de máquinas para o reconhecimento de padrões do posicionamento dos pontos de articulação, tendo em vista que o modelo terá acesso tanto às coordenadas dos pontos quanto às letras/números referentes (tensorflow)
+	- Método de Teste
+		- Ao término do treinamento, o modelo será submetido aos dados de teste, tendo em vista que o modelo não teve acesso prévio durante seu treinamento a estes dados (5%)
+		- Neste momento, o modelo não terá visão às letras/números referentes aos dados apresentados, somente acesso aos pontos de articulação (X,Y,Z)
+		- O modelo irá gerar os resultados previstos e armazená-los para serem comparados com a real resposta dos dados apresentados, verificando sua acuracidade
+
+
+- Desenvolvimento de interface
+	- Protótipo de telas
+	- Relação do software com o modelo de previsão
+	- Desenvolvimento front-end
+
+
+- Teste de campo
+	- Com o modelo de previsão treinado e testado em ambiente de desenvolvimento, será realizado o processo de validação do software com o público alvo, para validar os resultados obtidos
+	- Desenvolver relatório com o desempenho do sistema relativo ao teste de cada usuário
