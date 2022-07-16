@@ -1,4 +1,4 @@
-# BASE DE DADOS VOLTADA AO TREINAMENTOS DE MODELOS DE RECONHECIMENTO DE SINAIS DE LIBRAS
+# SISTEMA CAPTURADOR DE SINAIS DE LIBRAS
 
 Este trabalho de graduação foi desenvolvido pelos alunos Carlos Augusto Hubert e Mateus Rocha Pereira para a faculdade de tecnologia de Indaiatuba (FATEC-ID);
 
